@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+        <title>Impact Bootstrap Template - Portfolio Details</title>
+        <meta content="" name="description" />
+        <meta content="" name="keywords" />
+
+        <link href="../../assets/img/favicon.png" rel="icon" />
+        <link
+            href=".././assets/img/apple-touch-icon.png"
+            rel="apple-touch-icon"
+        />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+            rel="stylesheet"
+        />
+
+        <link
+            href="../../assets/vendor/bootstrap/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../../assets/vendor/bootstrap-icons/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+        <link href="../../assets/vendor/aos/aos.css" rel="stylesheet" />
+        <link
+            href="../../assets/vendor/glightbox/css/glightbox.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="../../assets/vendor/swiper/swiper-bundle.min.css"
+            rel="stylesheet"
+        />
+
+        <link href="../../assets/css/main.css" rel="stylesheet" />
+
+        <!-- =======================================================
+  * Template Name: Impact
+  * Updated: Mar 10 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+    </head>
+    <body>
+        <header id="header" class="header d-flex align-items-center">
+            <div
+                class="container-fluid container-xl d-flex align-items-center justify-content-between"
+            >
+                <a href="index.html" class="logo d-flex align-items-center">
+                    <h1>Layout<span>-</span>Example</h1>
+                </a>
+                <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+                <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+            </div>
+        </header>
+        <main id="main">
+            <div class="breadcrumbs">
+                <div
+                    class="page-header d-flex align-items-center"
+                    style="background-image: url('')"
+                >
+                    <div class="container position-relative">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-lg-6 text-center">
+                                <h2>Card Flip</h2>
+                                <p>
+                                    When hover, the card will flip from front to
+                                    back.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav>
+                    <div class="container">
+                        <ol>
+                            <li><a href="../../index.html">Home</a></li>
+                            <li>Card Flip</li>
+                        </ol>
+                    </div>
+                </nav>
+            </div>
+            <section id="portfolio-details" class="portfolio-details">
+                <div class="container" data-aos="fade-up">
+                    <div class="position-relative"></div>
+                    <div class="row justify-content-between gy-4 mt-4">
+                        <div class="col-lg-8">
+                            <div class="portfolio-description">
+                                <!-- Start Layout Code  -->
+                                <h2>HTML</h2>
+                                <section
+                                    id="layout"
+                                    class="portfolio sections-bg"
+                                >
+                                    <pre>
+                                  &lt;body&gt;
+                                    &lt;div class="card"&gt;
+                                      &lt;div&gt; class="content"&gt;
+                                        &lt;div&gt; class="front">Front&lt;/div&gt;
+                                        &lt;div&gt; class="back">Back!&lt;/div&gt;
+                                      &lt;/div&gt;
+                                    &lt;/div&gt;
+                                  &lt;/body&gt;
+                                </pre
+                                    >
+                                </section>
+                                <br />
+                                <h2>CSS</h2>
+                                <section
+                                    id="layout"
+                                    class="portfolio sections-bg"
+                                >
+                                    <code>
+                                        @import
+                                        "https://fonts.googleapis.com/css?family=Lily+Script+One";
+                                        body { background: #eee; font-family:
+                                        "Lily Script One"; } .card { position:
+                                        absolute; top: 50%; left: 50%; width:
+                                        300px; height: 300px; margin: -150px;
+                                        float: left; perspective: 500px; }
+                                        .content { position: absolute; width:
+                                        100%; height: 100%; box-shadow: 0 0 15px
+                                        rgba(0, 0, 0, 0.1); transition:
+                                        transform 1s; transform-style:
+                                        preserve-3d; } .card:hover .content {
+                                        transform: rotateY(180deg); transition:
+                                        0.5s; } .front, .back { position:
+                                        absolute; height: 100%; width: 100%;
+                                        background: white; line-height: 300px;
+                                        color: #03446a; text-align: center;
+                                        font-size: 60px; border-radius: 5px;
+                                        backface-visibility: hidden; } .back {
+                                        background: #03446a; color: white;
+                                        transform: rotateY(180deg); }
+                                    </code>
+                                </section>
+                                <!-- End Layout Code -->
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="portfolio-info">
+                                <h3>Example</h3>
+                            </div>
+                            <iframe
+                                class="h-100 w-100"
+                                onload="myFunction()"
+                                src="./original.html"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="footer" class="footer">
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-5 col-md-12 footer-info">
+                        <a
+                            href="index.html"
+                            class="logo d-flex align-items-center"
+                        >
+                            <span>Layout - Example</span>
+                        </a>
+                        <p>
+                            A collection of layouts from other developer, group,
+                            and pages.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-4">
+                <div class="copyright">
+                    &copy; Copyright
+                    <strong><span>Impact</span></strong
+                    >. All Rights Reserved
+                </div>
+                <div class="credits">
+                    <!-- All the links in the footer should remain intact. -->
+                    <!-- You can delete the links only if you purchased the pro version. -->
+                    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/impact-bootstrap-business-website-template/ -->
+                    Designed by
+                    <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                </div>
+            </div>
+        </footer>
+        <a
+            href="#"
+            class="scroll-top d-flex align-items-center justify-content-center"
+            ><i class="bi bi-arrow-up-short"></i
+        ></a>
+
+        <div id="preloader"></div>
+
+        <!-- <script src="../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+        <script src="../../assets/vendor/aos/aos.js"></script>
+        <script src="../../assets/vendor/glightbox/js/glightbox.min.js"></script>
+        <script src="../../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+        <script src="../../assets/vendor/swiper/swiper-bundle.min.js"></script>
+        <!-- <script src="../../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script> -->
+        <!-- <script src="../../assets/vendor/php-email-form/validate.js"></script> -->
+
+        <script src="../../assets/js/main.js"></script>
+    </body>
+</html>
