@@ -2,6 +2,7 @@
 body {
     background: #eee;
     font-family: "Lily Script One";
+    margin: 0;
 }
 .card {
     position: absolute;
