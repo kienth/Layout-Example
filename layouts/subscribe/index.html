@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-color: #2a272a;
+            }
+            .wrapper {
+                transform: translate(-50%, -50%);
+                position: absolute;
+                top: 50%;
+                left: 70%;
+            }
+            .cls-1 {
+                fill: #faf8ff;
+                stroke: none;
+                stroke-width: 2px;
+                font-size: 200px;
+                font-family: Gabriola;
+                stroke-dasharray: 1360;
+                animation-iteration-count: 1;
+                animation: csvg 3s cubic-bezier(0, 0.23, 1, 0.1);
+            }
+            @keyframes csvg {
+                0% {
+                    stroke: #fff;
+                    stroke-width: 2px;
+                    opacity: 0;
+                    fill: none;
+                    stroke-dasharray: 0;
+                }
+                30% {
+                    stroke: #fff;
+                    stroke-width: 2px;
+                    opacity: 10;
+                    fill: none;
+                }
+                80% {
+                    stroke: #fff;
+                    stroke-width: 2px;
+                    fill: rgba(255, 255, 255, 0);
+                }
+                100% {
+                    opacity: 10;
+                    fill: #ffe7ff;
+                    stroke-dasharray: 1360;
+                    outline: none;
+                    stroke: none;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="500"
+                height="200"
+                viewBox="0 0 1300 399"
+            >
+                <text
+                    id="id"
+                    data-name="Nihil Babu"
+                    class="cls-1"
+                    transform="translate(6 271)"
+                >
+                    <tspan x="0" y="0">Subscribe</tspan>
+                </text>
+            </svg>
+        </div>
+    </body>
+</html>

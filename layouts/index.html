@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            body {
+                height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="box"></div>
+        <script>
+            var age_list = [
+                {
+                    name: "person-1",
+                    age: 60,
+                },
+                {
+                    name: "person-2",
+                    age: 80,
+                },
+                {
+                    name: "person-3",
+                    age: 35,
+                },
+                {
+                    name: "person-4",
+                    age: 60,
+                },
+            ];
+            const personAges = age_list.filter(ages);
+            function ages(value) {
+                if (value.age <= 40) {
+                    return document.write("you are not eligible<br>");
+                } else if (40 < value.age && value.age <= 60) {
+                    return document.write("you are eligible<br>");
+                } else {
+                    return document.write("you are over age<br>");
+                }
+            }
+            document.getElementById("box").innerHTML = personAges;
+        </script>
+    </body>
+</html>
